@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# If using the default GitHub Pages domain
+Sitemap: https://www.harshyadav152.me/sitemap.xml
+Sitemap: https://www.harshyadav152.me/resources/sitemap.xml
+Sitemap: https://www.harshyadav152.me/resources/home/sitemap.xml
+
+# If using a custom domain, use these instead:
+# Sitemap: https://harshyadav152.me/sitemap.xml
+# Sitemap: https://harshyadav152.me/resources/sitemap.xml
