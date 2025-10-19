@@ -1,11 +1,22 @@
+# public/robots.txt
 User-agent: *
 Allow: /
 
-# If using the default GitHub Pages domain
-Sitemap: https://www.harshyadav152.me/sitemap.xml
-Sitemap: https://www.harshyadav152.me/resources/sitemap.xml
-Sitemap: https://www.harshyadav152.me/resources/home/sitemap.xml
+# Sitemap
+Sitemap: https://harshyadav152.me/sitemap.xml
 
-# If using a custom domain, use these instead:
-# Sitemap: https://harshyadav152.me/sitemap.xml
-# Sitemap: https://harshyadav152.me/resources/sitemap.xml
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Allow social media bots
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 1
